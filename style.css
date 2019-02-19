@@ -283,6 +283,19 @@
   top: 0px;
 }
 
+#divApplab.appModern #label1 {
+  border-top-width: 2px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-top-color: rgb(47, 26, 188);
+  border-right-color: rgb(47, 26, 188);
+  border-bottom-color: rgb(47, 26, 188);
+  border-left-color: rgb(47, 26, 188);
+  width: 320px;
+  height: 450px;
+}
+
 #divApplab.appModern #geodudeBG {
   border-top-width: 4px;
   border-right-width: 4px;
@@ -452,6 +465,7 @@
   left: 125px;
   top: 175px;
   background-color: rgb(0, 0, 0);
+  text-align: center;
 }
 
 #divApplab.appModern #potionLabel {
@@ -465,9 +479,9 @@
 }
 
 #divApplab.appModern #winScreen {
-  display: none;
   background-size: 320px 450px;
   background-image: url("https://studio.code.org/blockly/media/1x1.gif");
+  display: none;
 }
 
 #divApplab.appModern #winLabel {
@@ -493,6 +507,5 @@
 #divApplab.appModern #image6 {
   height: 350px;
   width: 320px;
-  left: -1.11022e-16px;
   top: 45px;
 }

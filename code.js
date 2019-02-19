@@ -45,6 +45,7 @@ function punch() {
   }
   if (computerHealth <= 0) {
     setScreen("winScreen");
+    return;
   }
   hideElement("punchBtn");
   hideElement("punchLabel");
