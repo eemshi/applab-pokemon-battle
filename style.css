@@ -283,17 +283,36 @@
   top: 0px;
 }
 
-#divApplab.appModern #label1 {
-  border-top-width: 2px;
-  border-right-width: 2px;
-  border-bottom-width: 2px;
-  border-left-width: 2px;
-  border-top-color: rgb(47, 26, 188);
-  border-right-color: rgb(47, 26, 188);
-  border-bottom-color: rgb(47, 26, 188);
-  border-left-color: rgb(47, 26, 188);
-  width: 320px;
-  height: 450px;
+#divApplab.appModern #button3 {
+  height: 20px;
+  background-color: rgb(222, 222, 222);
+  left: 10px;
+  top: 35px;
+  width: 300px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: rgb(222, 222, 222);
+  border-right-color: rgb(222, 222, 222);
+  border-bottom-color: rgb(222, 222, 222);
+  border-left-color: rgb(222, 222, 222);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#divApplab.appModern #healthComp {
+  height: 20px;
+  background-color: rgb(22, 255, 0);
+  left: 10px;
+  top: 35px;
+  width: 300px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 #divApplab.appModern #geodudeBG {
@@ -308,15 +327,28 @@
   width: 320px;
   height: 100px;
   top: 350px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+#divApplab.appModern #label1 {
+  border-top-width: 2px;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  border-left-width: 2px;
+  border-top-color: rgb(47, 26, 188);
+  border-right-color: rgb(47, 26, 188);
+  border-bottom-color: rgb(47, 26, 188);
+  border-left-color: rgb(47, 26, 188);
+  width: 320px;
+  height: 450px;
 }
 
 #divApplab.appModern #potionBtn {
   height: 70px;
   width: 45px;
   background-color: rgb(255, 255, 255);
-  left: 73px;
-  top: 356px;
+  left: 75px;
+  top: 360px;
   background-size: contain;
   background-position-x: 50%;
   background-position-y: 50%;
@@ -357,38 +389,6 @@
   top: 415px;
 }
 
-#divApplab.appModern #button3 {
-  height: 20px;
-  background-color: rgb(222, 222, 222);
-  left: 10px;
-  top: 33px;
-  width: 300px;
-  border-top-width: 1px;
-  border-right-width: 1px;
-  border-bottom-width: 1px;
-  border-left-width: 1px;
-  border-top-color: rgb(222, 222, 222);
-  border-right-color: rgb(222, 222, 222);
-  border-bottom-color: rgb(222, 222, 222);
-  border-left-color: rgb(222, 222, 222);
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-
-#divApplab.appModern #healthComp {
-  height: 20px;
-  background-color: rgb(22, 255, 0);
-  left: 10px;
-  top: 33px;
-  width: 300px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-
 #divApplab.appModern #image3 {
   height: 125px;
   width: 265px;
@@ -397,13 +397,13 @@
 }
 
 #divApplab.appModern #label4 {
-  font-size: 18px;
+  font-size: 22px;
   color: rgb(32, 0, 255);
-  width: 160px;
-  height: 25px;
-  left: 145px;
+  width: 187px;
+  height: 26px;
+  left: 125px;
   text-align: right;
-  top: 393px;
+  top: 385px;
 }
 
 #divApplab.appModern #potionCount {
@@ -411,18 +411,18 @@
   color: hotpink;
   width: 25px;
   height: 20px;
-  left: 105px;
-  top: 375px;
+  top: 362px;
+  left: 87px;
 }
 
 #divApplab.appModern #label6 {
-  font-size: 18px;
+  font-size: 20px;
   color: rgb(0, 0, 0);
   width: 245px;
   height: 25px;
   left: 10px;
   text-align: left;
-  top: 10px;
+  top: 8px;
 }
 
 #divApplab.appModern #oddish {
@@ -471,10 +471,10 @@
 #divApplab.appModern #potionLabel {
   width: 70px;
   height: 35px;
-  left: 15px;
+  left: 10px;
   top: 375px;
   font-size: 15px;
-  text-align: left;
+  text-align: right;
   color: hotpink;
 }
 
@@ -498,6 +498,20 @@
   width: 330px;
   left: -5px;
   top: 80px;
+}
+
+#divApplab.appModern #image1 {
+  height: 50px;
+  width: 55px;
+  left: 110px;
+  top: 285px;
+}
+
+#divApplab.appModern #image2 {
+  height: 50px;
+  width: 55px;
+  left: 150px;
+  top: 275px;
 }
 
 #divApplab.appModern #loseScreen {
