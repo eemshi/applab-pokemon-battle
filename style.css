@@ -1,0 +1,498 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("applab/fontawesome-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+#divApplab.appModern button.appModernDesign,
+#divApplab.appModern button.appModernDesign:hover {
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  height: 30px;
+  width: 80px;
+  font-size: 14px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(26, 188, 156);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern label.appModernDesign,
+#divApplab.appModern label.appModernDesign:hover {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+  line-height: 1;
+  font-size: 14px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  overflow-wrap: break-word;
+  color: rgb(51, 51, 51);
+  max-width: 320px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  width: 32px;
+  height: 18px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern input[type=text].appModernDesign,
+#divApplab.appModern input[type=text].appModernDesign:hover {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  width: 200px;
+  height: 30px;
+  color: rgb(0, 0, 0);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: rgb(153, 153, 153);
+  border-right-color: rgb(153, 153, 153);
+  border-bottom-color: rgb(153, 153, 153);
+  border-left-color: rgb(153, 153, 153);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern input[type=checkbox].appModernDesign,
+#divApplab.appModern input[type=checkbox].appModernDesign:hover {
+  width: 12px;
+  height: 12px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern select.appModernDesign,
+#divApplab.appModern select.appModernDesign:hover {
+  width: 200px;
+  height: 30px;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(26, 188, 156);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern input[type=radio].appModernDesign,
+#divApplab.appModern input[type=radio].appModernDesign:hover {
+  width: 12px;
+  height: 12px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern div.textArea.appModernDesign,
+#divApplab.appModern div.textArea.appModernDesign:hover {
+  width: 200px;
+  height: 100px;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: rgb(153, 153, 153);
+  border-right-color: rgb(153, 153, 153);
+  border-bottom-color: rgb(153, 153, 153);
+  border-left-color: rgb(153, 153, 153);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern img.appModernDesign,
+#divApplab.appModern img.appModernDesign:hover {
+  height: 100px;
+  width: 100px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  object-fit: contain;
+  font-family: "object-fit: contain;";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern canvas.appModernDesign,
+#divApplab.appModern canvas.appModernDesign:hover {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern div.screen.appModernDesign,
+#divApplab.appModern div.screen.appModernDesign:hover {
+  display: block;
+  height: 450px;
+  width: 320px;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  z-index: 0;
+}
+
+#divApplab.appModern div.chart.appModernDesign,
+#divApplab.appModern div.chart.appModernDesign:hover {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+#divApplab.appModern input[type=range].appModernDesign,
+#divApplab.appModern input[type=range].appModernDesign:hover {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  width: 150px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#divApplab.appModern #geodudeBG {
+  border-top-width: 4px;
+  border-right-width: 4px;
+  border-bottom-width: 4px;
+  border-left-width: 4px;
+  border-top-color: rgb(47, 26, 188);
+  border-right-color: rgb(47, 26, 188);
+  border-bottom-color: rgb(47, 26, 188);
+  border-left-color: rgb(47, 26, 188);
+  width: 320px;
+  height: 100px;
+  top: 350px;
+  background-color: rgb(255, 255, 255);
+}
+
+#divApplab.appModern #potionBtn {
+  height: 70px;
+  width: 45px;
+  background-color: rgb(255, 255, 255);
+  left: 73px;
+  top: 356px;
+  background-size: contain;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAAGQCAYAAACAvzbMAAAgAElEQVR4Xu3dfez9ZV3H8aepMZxJkylZ/hECMnOJI0eoa1oRlG04lRTFm0AQRVC811BBxRs0b0EFE7wXbyvczPuC5tQhKVTGcBCuOR0pFUUiKdnednBfEDznXJ/Pdfe5ntfG+INz3T2ui9/rd875nOu6DRYFFFBAAQUSBG6TUMcqCiiggAIKYIC4CRRQQAEFkgQMkCQ2KymggAIKGCDuAQUUUECBJAEDJInNSgoooIACBoh7QAEFFFAgScAASWKzkgIKKKCAAeIeUEABBRRIEjBAktispIACCihggLgHFFBAAQWSBAyQJDYrKaCAAgoYIO4BBRRQQIEkAQMkic1KCiiggAIGiHtAAQUUUCBJwABJYrOSAgoooIAB4h5QQAEFFEgSMECS2KykgAIKKGCAuAcUUEABBZIEDJAkNispoIACChgg7gEFFFBAgSQBAySJzUoKKKCAAgaIe0ABBRRQIEnAAElis5ICCiiggAHiHlBAAQUUSBIwQJLYrKSAAgooYIC4BxRQQAEFkgQMkCQ2KymggAIKGCDuAQUUUECBJAEDJInNSgoooIACBoh7QAEFFFAgScAASWKzkgIKKKCAAeIeUEABBRRIEjBAktispIACCihggLgHFFBAAQWSBAyQJDYrKaCAAgoYIO4BBRRQQIEkAQMkic1KCiiggAIGiHtAAQUUUCBJwABJYrOSAgoooIAB4h5QQAEFFEgSMECS2KykgAIKKGCAuAcUUEABBZIEDJAkNispoIACChgg7gEFFFBAgSQBAySJzUoKKKCAAgaIe0ABBRRQIEnAAElis5ICCiiggAHiHlBAAQUUSBIwQJLYrKSAAgooYIC4BxRQQAEFkgQMkCQ2KymggAIKGCDuAQUUUECBJAEDJInNSgoooIACBoh7QAEFFFAgScAASWKzkgIKKKCAAeIeUEABBRRIEjBAktispIACCihggLgHFFBAAQWSBAyQJDYrKaCAAgoYIO4BBRRQQIEkAQMkic1KCiiggAIGiHtAAQUUUCBJwABJYrOSAgoooIAB4h5QQAEFFEgSMECS2KykgAIKKGCAuAcUUEABBZIEDJAkNispoIACChgg7gEFFFBAgSQBAySJzUoKKKCAAgaIe0ABBRRQIEnAAElis1KCwN2B/YB7ALsn1LfKeoGrgSuAi4FvrX+5r1BgmoABMs3P2usFng48Fdhn/Ut9xYwClwFvAd40Y5s2pcBNBAwQN0Qugf2BDxgcuXg3bjeC5NHAVzeu4QsV2FDAANkQypdtJXA4cO5WNXxxboEIkQh0iwKzCRggs1Ha0ErgAODzwO0VaUrgB8CBwFeaGpWD6VrAAOl6+Zob/B2A+MgkvjC3tCfwL8C+wPfbG5oj6lHAAOlx1dod8ynAye0Oz5EBLwReroQCcwgYIHMo2kYIxF76D+BOcjQt8F3gLk2P0MF1I2CAdLNUzQ/0t4C/bX6UDjAE4nuqL0uhwFQBA2SqoPVvFHga8EY5uhB4MnBWFyN1kE0LGCBNL09XgzsVOKmrEY872Pie6qXjTt+ZzyVggMwlaTuvAZ4tQxcCpwHP72KkDrJpAQOk6eXpanDPBeIPJkv7As8CXtf+MB1h6wIGSOsr1M/4DgE+2c9whx7p7wJ/PbSAk59FwACZhdFGgF2Aa1b/FqRdge+tHrW+od0hOrJeBAyQXlaqj3G+G3hcH0MddpRvB44ZdvZOfFYBA2RWzuEb+2Xgn30X0uw+iHcfvwp8p9kROrCuBAyQrpari8EeCZzTxUjHG+QRwPvHm7YzziVggOSSHbvdNwPHjU3Q3OxPB+LHnhYFZhMwQGajtKEdArGv4ia841VpQiAe2Y1Hdy0KzCpggMzKaWM3E3g8ED8wvKsyVQS+vQoOL/eqwr/8Tg2Q5a9x7RnuCjwMOAi4x5aDibpx8N/c5R+Af5u50TsDvz5zm9HchcB1W7Z7BfAZ4C+9+2NLOV++lYABshWXLy4ssA/w9Qx9PgT4xMztRpsfn7nNaC4MLs/Qrk0qMFnAAJlMaAMZBQwQAyTj9rLpqQIGyFRB6+cUMEAMkJz7y7YnChggEwGtnlXAADFAsm4wG58mYIBM87N2XgEDxADJu8NsfZKAATKJz8qZBQwQAyTzFrP5KQIGyBQ96+YWMEAMkNx7zPYnCBggE/Csml3AADFAsm8yO0gXMEDS7ayZX8AAMUDy7zJ7SBYwQJLprFhAwAAxQApsM7tIFTBAUuWsV0LAADFASuwz+0gUMEAS4axWRMAAMUCKbDQ7SRMwQNLcrFVGwAAxQMrsNHtJEjBAktisVEjAADFACm01u0kRMEBS1KxTSsAAMUBK7TX7SRAwQBLQrFJMwAAxQIptNjvaXsAA2d7MGuUEDBADpNxus6etBQyQrcmsUFDAADFACm43u9pWwADZVszXlxQwQAyQkvvNvrYUMEC2BPPlRQUMEAOk6Iazs+0EDJDtvHx1WQEDxAApu+PsbSsBA2QrLl9cWMAAMUAKbzm720bAANlGy9eWFjBADJDSe87+thAwQLbA8qXFBQwQA6T4prPDzQUMkM2tfGV5AQPEACm/6+xxYwEDZGMqX1hBwAAxQCpsO7vcVMAA2VTK19UQMEAMkBr7zj43FDBANoTyZVUEDBADpMrGs9PNBAyQzZx8VR0BA8QAqbPz7HUjAQNkIyZfVEnAADFAKm09u91EwADZRMnX1BIwQAyQWnvPfjcQMEA2QPIl1QQMEAOk2uaz4/UCBsh6I19RT8AAMUDq7T57XitggKwl8gUVBQwQA6Ti9rPrdQIGyDoh/3tNAQPEAKm5/+x7jYAB4hZpWcAAMUBa3p/Dj80AGX4LNA1ggBggTW/Q0QdngIy+A9qevwFigLS9QwcfnQEy+AZofPoGiAHS+BYde3gGyNjr3/rsDRADpPU9OvT4DJChl7/5yRsgBkjzm3TkARogI69++3M3QAyQ9nfpwCM0QAZe/A6mboAYIB1s03GHaICMu/Y9zNwAMUB62KfDjtEAGXbpu5i4AWKAdLFRRx2kATLqyvcxbwPEAOljpw46SgNk0IXvZNoGiAHSyVYdc5gGyJjr3susDRADpJe9OuQ4DZAhl72bSRsgBkg3m3XEgRogI656P3M2QAyQfnbrgCM1QAZc9I6mbIAYIB1t1/GGaoCMt+Y9zdgAMUB62q/DjdUAGW7Ju5qwAWKAdLVhRxusATLaivc1XwPEAOlrxw42WgNksAXvbLoGiAHS2ZYda7gGyFjr3dtsDRADpLc9O9R4DZChlru7yRogBkh3m3akARsgI612f3M1QAyQ/nbtQCM2QAZa7A6naoAYIB1u23GGbICMs9Y9ztQAMUB63LfDjNkAGWapu5yoAWKAdLlxRxm0ATLKSvc5TwPEAOlz5w4yagNkkIXudJoGiAHS6dYdY9gGyBjr3OssDRADpNe9O8S4DZAhlrnbSRogBki3m3eEgRsgI6xyv3M0QAyQfnfvACM3QAZY5I6neC/gnzKM/w+AT87cbrT5VzO3Gc39GnBphnZtUoHJAgbIZEIbyChwDnBkhvYfAnxi5najzY/P3GY0FwZPzNCuTSowWcAAmUxoA5kEHgScn6ntngIkCB4MXJDJwmYVSBYwQJLprJhRYJfVxzZ7ZuqjtwC5EoiP867P5GGzCiQJGCBJbFbKLPAK4AUZ++gtQILi5cALM5rYtAJbCxggW5NZIbPAvYGLgdtl7KfHAPkhcF/gaxldbFqBrQQMkK24fHEBgS8Bv5m5n4OAz83cR7T5mZnbvHlzYXP/zH3YvAIbCxggG1P5wgICJwBvytzPV4ADgBtm7ue2wIXA/jO3e/PmwuiMzH3YvAIbCRggGzH5ogICd199cX7HjH1FaOyX8WOg+PjtEiDCJFe5FtgbuCpXB7arwKYCBsimUr4ut8CngIMzd/JK4E8y93Ea8NzMfXwMeGjmPmxegbUCBshaIl9QQOAw4MOZ+yn1KOyuq3c4uR5BvpEpzD6a2czmFfiZAgaIG6S2wG7AZcAemQdS8sd4OX8EeSNTfIQVH2XFR1oWBaoIGCBV2O10h8BZwJMyi7wDOCpzHzdvPtcxLDv7ORN4SuF52Z0CPxEwQNwMNQUOBL6YeQBXA3sB12Tu5+bNxzurK4DdM/cbj/XG470WBYoLGCDFye1wJRA/FIwfxd0zs8hjgHMz93FrzT8aeH/mvr8OxNNf8UNDiwJFBQyQotx2tkPgFODkzCKfBg7J3Me65ks8XRaWL1k3EP+7AnMLGCBzi9reJgLxriPefeQ8ruS61bubb24yoIyvid+3xLuEeDorV4l3H/EuJPqxKFBMwAApRm1HOwTie4/4/iNneRbwupwdbNH2M4HXbvH6lJd6zEmKmnUmCRggk/isnCBwLBBPD+UsuY4rSR1zqWNOwvZtqYO0ngLbChgg24r5+ikC8VuPy4GejytJnX+JY07iSbN9PeYkdYmst62AAbKtmK+fIvAR4BFTGtig7msKHCWywTBu8SUxtmenVt6wXvyi/5EbvtaXKTBJwACZxGflLQQOBc7b4vUpL43jSuJv+vEFeoul1DEn8eRZPIFmUSCrgAGSldfGVwLxkVV8dLWk40pSF7fEMSfx5FlcgesxJ6mrZL2NBAyQjZh80USB04HjJ7axrvp7gcete1Ej//09wGMzjyXMn5a5D5sfXMAAGXwDFJh+XLB0EZBzr8VxJfHlcfy7hxLHm8QxJ3HcSa7yI+B+QDyRZlEgi0DO/6mzDNhGuxKIHwrG/ebxvUTO8gTg3Tk7yND244F3ZWh3Z5PxY824R91jTjJDj9q8ATLqypeZ90nAqZm7ugCIo9p7LOcD8Z1IzhIXaMVFWhYFZhcwQGYntcGVQFyodCmwS0aReNoq3t3E01c9lhJG16++UO/VqMd1HWbMBsgwS118oiX+dv084NXFZzZvhzGHV83b5E+11vO7tMw0Nj9FwACZomfdWxOIy5vOzswTn+/vB9yQuZ/czccxJ5cU+J7oSOCduSdj+2MJGCBjrXeJ2fqE0fbKJZ5Ui2NO4mKtXp5U217RGsUFDJDi5IvvMC5vOjzzLN8APCNzH6Wbjzk9PXOncbnVEZn7sPmBBAyQgRa7wFQPBuICpZwlfmUd94m0elxJ6tzjmJO4zyPuD8lZPOYkp+5gbRsggy14xun6B+B0XAN4uqEtFBQwQApiL7yruLwp98dKHwDinvEll5jjozJPMC63yn0qcOYp2HwLAgZIC6vQ/xjiS+ALgXiiKFcZ5UvgEg8hxJNr8QRbPMlmUSBZwABJprPiSqDUY6hPBM4ZRD3m+vbMc23t1sbM07X5HAIGSA7Vsdp8ToEf8434Q7gS98bHx1i572of6/+GwWZrgAy24DNPN47iiI9B4gv0XGXUozjiSbO/L3AUTPQTT7ZZFNhawADZmswKOwRKHFfyQuDlg6rH3F+Wee5xc2E82mtRYGsBA2RrMiusBOJCpLgYKWcZ/TjyOA4/DOJdQs4SPy6MHxlaFNhKwADZissXrwTiSaHLgPh3ruKFSP8veyDwhQIXcsUxJ/Gkm0WBjQUMkI2pfOEOgbgIKS5EylnOAE7I2UFHbb8ZOC7zeOOgxThw0aLAxgIGyMZUvnAlEBcgxXcfOUt8qXsv4NqcnXTU9h2By4E9Mo85LuaKJ94sCmwkYIBsxOSLVgJxOVRcEhVPX+Usntf007qHAuflRF9dzBXBHU++WRRYK2CArCXyBTsE4uKjuAApZ/kI8Ec5O+i47Y8CD888/rj+Nq7BtSiwVsAAWUvkC1YCcXVsXHyU87iS+Mhqb+Aq1W9RID7Cio+y4iOtXOWHwH095iQX77LaNUCWtZ65ZhP75CIgzrzKWY4F3pazgwW0/RTgLZnnEcec3A+IJ+EsCtyqgAHi5thE4ETg9Zu8cMJrvgTcf0L9kaqWOObkacDpI6E61+0FDJDtzUarERccxUVHOY8riY9N4iOy6MeyXiB+WBg/MIwfGuYq8XFifKHuMSe5hBfQrgGygEXMPIW4YTAuOspZTgFekrODBbYdXi/OPC+POckM3HvzBkjvK5h3/HGxUVxwlLPEu4549xHvQiybC8Qj1XHYYu5jTuKJuHgyzqLATwkYIG6KWxPYDbgi83El0Xd87xHff1i2F4hjTuL7kJwlnojb12NOchL327YB0u/a5R55XGgUFxvlLGcC8VSRJV0gnlo7Jr36RjWjj3hCzqLATQQMEDfELQmU+ptt/ObD40qm7cF4pxgHW+Y+5sR3itPWaZG1DZBFLuukSZX6bP0RwJ9PGqmVbxSI7yk+lJnD76oyA/fYvAHS46rlHXNcYBQXGeUsHwMemrODAdsu8bRcPPkVT8xZFPixgAHiRtgpUOr3BR5XMv++i9/rxEGXuY858fc6869dty0aIN0u3ewDj70QFxfF9x85y/FA3G9hmV8gfj3+xvmbvUmLnhiQGbin5g2QnlYr71jjwqLcf7DHHz4P8IylbAtZ6syyJwNnZZuFDXcjYIB0s1RZB1rqlFc//si6jD9uPIwvLnDMiR9D5l/L5nswQJpfoiIDjIuK4sKinOVU4EU5O7Dtnwi8AnhBZo+4m+SwzH3YfOMCBkjjC1RgeA8r8DjtlauD+bzprsCCAqVujown6eKJOsugAgbIoAu/mrZ3bS93/UvcXR/HnPhj0OXuobUzM0DWEi36BXExUe6jRM4Gjl60YruTewfwx5mHdwZwQuY+bL5RAQOk0YUpMKx4XDce2825B64G9vIgvgKrectdlDgQM24tjNsL4xZDy2ACOf/wGIyyq+nGRURxIVHuo8APBz7YlczyBvsY4H2ZpxV7Ke5R90j+zNCtNW+AtLYiZcYTT0O9NHNXXkaUGXiL5kscc3ISEE9/WQYSMEAGWuzVVONdR1xEFE/q5CrXrd7deB1qLuHt2i1xLXE8YRdX4MYTd5ZBBAyQQRZ6xzTjAqLcx5WcWOBIjfFWbtqMnwX86bQm1ta+AHjw2lf5gsUIGCCLWcqNJhIXD8XlQDlLfJkaX6rGl6uWdgRuC1wI7J95SEcB8fSXZQABA2SARV5NMY4riYuH4smcXOUGYL/VF/S5+rDddIE45uQSIMIkV7lm9eRdPIFnWbiAAbLwBd4xvXga6pGZp3sa8PzMfdj8NIHXAM+e1sTa2ucC8fSXZeECBsjCF3g1vYOBeBInZ/G4kpy687W9KxC3C8YX6znLIUA8iWdZsIABsuDFXU2t1B8Y8eVpfIlqaV+gxF8o4gm8eOIvnsizLFTAAFnowu6YVlwwFBcN5SzvKnBkRs7xj9j2e4EjMk/8dUA8/WVZqIABstCFXU0rnri5yONKlr3IibPbHbiiwEMVB3jMSeIKdVDNAOlgkRKHGE/axBM38eRNzvLYAkdl5Bz/yG0/AXhnZoA45iSezIsn9CwLEzBAFragO6YTT0O9MvP0PK4kM3CB5s8H4uj3nOU5BX7EmHP8tn0rAgbIMrfGnsClHleyzMWdeVal9kq8E/aYk5kXr3ZzBkjtFcjTv3+rzOO61FZLvFv1mJMF7h4DZHmL6ufay1vT3DMq9X3Z44B4+suyEAEDZCELuZqGT9Ysaz1LzsYn9kpqL6QvA2QhC7maxnuAeCoqZ4lftL8qZwe2XU0g7vQ4KHPv8dTXkZn7sPlCAgZIIegC3ZT4dXGBadjFAAKeWrCQRTZAlrGQpY4rWYaWs6gt4LlptVdgpv4NkJkgKzdT4oTVylO0+4UJxMegL1jYnIabjgHS/5KXuOOhfyVn0JqAd8e0tiIJ4zFAEtAaqlLqlrmGpuxQFiTg7ZWdL6YB0vcCPhN4bd9TcPSDC5wIxInRlg4FDJAOF2015LgQKC4Gii/QLQr0KhD3hcS9IXF/iKUzAQOkswXbMdz4PUY8umtRoHcBD+XsdAUNkD4XLu6bfl+fQ3fUCtyiwKOAD2nTl4AB0td6xWh3W10EFMeWWBRYisBVwL7ANUuZ0AjzMED6W+VzPAqiv0VzxBsJvB04ZqNX+qImBAyQJpZh40HExT9xVLtFgaUK3B/40lInt7R5GSD9rOguq0ui4gIgiwJLFYgnC+8DXL/UCS5pXgZIP6v5Co9+6GexHOkkgZcBL57UgpWLCBggRZgndxLHlVwM3G5ySzagQPsCPwRiz8e7EUvDAgZIw4uzGlqs0UVAXPhjUWAUgfge5AHAj0aZcI/zNEDaX7UTgDe1P0xHqMDsAscBb529VRucTcAAmY0yS0NxXMmlwB2ztG6jCrQtcC2wNxC/EbE0KGCANLgoO4bkcSVtr4+jyy/wF8DD83djDykCBkiKWpk6hwEfLtOVvSjQtMBDgY81PcJBB2eAtLnwcVzJZcAebQ7PUSlQVCA+woqPsuIjLUtDAgZIQ4uxYyhnAU9qc2iOSoEqAm8BnlqlZzu9VQEDpL3NcSDwxfaG5YgUqCoQj/PGY70ec1J1GW7auQHS0GKsfij4tdUFO22NzNEoUF8gflgYPzCMHxpaGhAwQBpYhB1DOAU4ua0hORoFmhJ4EXBqUyMaeDAGSDuLH9d6xrsPjytpZ00cSXsCccjivYAr2xvaeCMyQNpZ8/jeI77/sCigwM8WuAB4sEj1BQyQ+msQIzgWOLONoTgKBboQOBo4u4uRLniQBkj9xY3felzucSX1F8IRdCUQV9/uBVzd1agXNlgDpP6CfgR4RP1hOAIFuhP4IHB4d6Ne0IANkLqLeShwXt0h2LsCXQscAny66xl0PHgDpN7ixQm78dGVx5XUWwN77l/gm6vfTV3X/1T6m4EBUm/NTgeOr9e9PSuwGIE3AM9YzGw6mogBUmex4nbBuGVQ/zr+9rosgTjm5H7AV5Y1rfZn4x9g5dcofigY95vHkQwWBRSYRyB+hLsfcMM8zdnKJgIGyCZK877mJI9imBfU1hRYCTwPeLUa5QQMkHLW0dOeqytqdynbrb0pMIRAfJEe7+w95qTQchsghaBX3ZwPPKhsl/amwFACHnNScLkNkHLYR3n0Qjlsexpa4PHAe4YWKDR5A6QM9O7AFUBcVWtRQIG8AnG8yb4ec5IXOVo3QPIbRw/neuRCGWh7UWAlEO9A4p2IJaOAAZIRd9X0wcCn8ndjDwoocDOBOPI9vhOxZBIwQDLBrprdFYhrOO+etxtbV0CBWxCIp7HiqSyPOcm0PQyQTLCrZl/nEQt5gW1dgTUC8buQ+H2IJYOAAZIBddVkHFdyIXDbfF3YsgIKrBGIX6bHL9Tjl+qWmQUMkJlBV81FaFzicSV5cG1VgS0F4oysOCsrzsyyzChggMyIuaOp53ikQh5YW1UgUSBO641Tey0zChggM2KumorjSuLtcnyBblFAgTYE4ov0ewJxf4hlJgEDZCbIHc14XMn8praowBwCcXNh3GBomUnAAJkJctXMo4H3z9ukrSmgwIwCjwQ+PGN7QzdlgMy3/HHCbjx3frf5mrQlBRSYWeBbwD2A62dud8jmDJD5lv0lwIvna86WFFAgk8DJwEsztT1UswbIPMsd7zri3Yf3fMzjaSsK5BT4HrAPEO9GLBMEDJAJeDuq/hlw9DxN2YoCChQQeCtwXIF+Ft2FATJ9eePdxzeAn5/elC0ooEAhgf9ZnVH3nUL9LbIbA2T6sr4WeOb0ZmxBAQUKC5wGPL9wn4vqzgCZtpy/uPoc1R8NTnO0tgI1BP4L+BUg/m1JEDBAEtB2VDkeOH1aE9ZWQIGKAk8GzqrYf9ddGyDTlu9vgLi0xqKAAn0KfBb4vT6HXn/UBkj6GtwZ+K7XAqcDWlOBBgTiuPc9vD89bSUMkDS3qHX46q7z9BasqYACLQgcBny0hYH0NgYDJH3FvG0w3c6aCrQk4K2FiathgCTCAZ8HHphe3ZoKKNCIQJyg/duNjKWrYRgg6cv1r8Bd0qtbUwEFGhGII03icV7LlgIGyJZgq5eHW3z5pl+an7UUaEkgfpXuOXYJK+IfgAlowO6rJ7DSaltLAQVaE9gN+M/WBtX6eAyQtBW6K3BVWlVrKaBAgwLxWP6/NziupodkgKQtz8+tPsJKq20tBRRoTSD+n/5Ra4NqfTwGSPoK/Tdwh/Tq1lRAgUYErgHiXDvLlgIGyJZgO17+VeC+6dWtqYACjQh8GTigkbF0NQwDJH25zgCeml7dmgoo0IjAG4BnNDKWroZhgKQvl0eZpNtZU4GWBDzKJHE1DJBEOOBOwLf9HiQd0JoKNCAQ96PHD4Lj35YtBQyQLcFu9vIzgWOnNWFtBRSoKPBmIO71sSQIGCAJaDuq3Bv4x2lNWFsBBSoK7A1cUbH/rrs2QKYv3zuBJ0xvxhYUUKCwwDuAowr3uajuDJDpyxlHIFy2upRmemu2oIACJQTiMNR9PL5kGrUBMs3vxtoHAhcAPz9Pc7aigAIZBb4PPAi4MGMfQzRtgMy3zA9b3Wqm6XymtqTA3AL/C/wh8Mm5Gx6xPf+wm3fVTwReP2+TtqaAAjMKHA2cPWN7QzdlgMy//EcAbwV+Yf6mbVEBBRIFrgWeCHwosb7VbkHAAMmzLfYC3gb8Tp7mbVUBBbYQ+CxwDPCNLer40g0EDJANkCa85PeB04D7TGjDqgookCZwCfA84FNp1a21TsAAWSc0/b+H8UGrX6wfCtx+epO2oIACtyLwA+A84Czgc97xkXefGCB5fW/e+i8BhwC/ATwQ2L9s9/amwCIF/g74AnDR6umq+I2HpYCAAVIAeU0XcZTCnqt/7ga4JvXXxBG0KxC3Bn4LuHL1j8eQVFwr/7CqiG/XCiigQM8CBkjPq+fYFVBAgYoCBkhFfLtWQAEFehYwQHpePceugAIKVBQwQCri27UCCijQs4AB0vPqOXYFFFCgooABUhHfrhVQQIGeBQyQnlfPsSuggAIVBQyQivh2rYACCvQsYID0vHqOXQEFFKgoYIBUxLdrBRRQoGcBA6Tn1XPsCiigQEUBA6Qivl0roIACPQsYID2vnmNXQAEFKoTm1YwAAAKhSURBVAoYIBXx7VoBBRToWcAA6Xn1HLsCCihQUcAAqYhv1woooEDPAgZIz6vn2BVQQIGKAgZIRXy7VkABBXoWMEB6Xj3HroACClQUMEAq4tu1Agoo0LOAAdLz6jl2BRRQoKKAAVIR364VUECBngUMkJ5Xz7EroIACFQUMkIr4dq2AAgr0LGCA9Lx6jl0BBRSoKGCAVMS3awUUUKBnAQOk59Vz7AoooEBFAQOkIr5dK6CAAj0LGCA9r55jV0ABBSoKGCAV8e1aAQUU6FnAAOl59Ry7AgooUFHAAKmIb9cKKKBAzwIGSM+r59gVUECBigIGSEV8u1ZAAQV6FjBAel49x66AAgpUFDBAKuLbtQIKKNCzgAHS8+o5dgUUUKCigAFSEd+uFVBAgZ4FDJCeV8+xK6CAAhUFDJCK+HatgAIK9CxggPS8eo5dAQUUqChggFTEt2sFFFCgZwEDpOfVc+wKKKBARQEDpCK+XSuggAI9CxggPa+eY1dAAQUqChggFfHtWgEFFOhZwADpefUcuwIKKFBRwACpiG/XCiigQM8CBkjPq+fYFVBAgYoCBkhFfLtWQAEFehYwQHpePceugAIKVBQwQCri27UCCijQs4AB0vPqOXYFFFCgooABUhHfrhVQQIGeBQyQnlfPsSuggAIVBQyQivh2rYACCvQsYID0vHqOXQEFFKgoYIBUxLdrBRRQoGcBA6Tn1XPsCiigQEUBA6Qivl0roIACPQsYID2vnmNXQAEFKgoYIBXx7VoBBRToWcAA6Xn1HLsCCihQUcAAqYhv1woooEDPAgZIz6vn2BVQQIGKAgZIRXy7VkABBXoWMEB6Xj3HroACClQUMEAq4tu1Agoo0LOAAdLz6jl2BRRQoKKAAVIR364VUECBngX+Dxd8sr7pmxb+AAAAAElFTkSuQmCC");
+}
+
+#divApplab.appModern #button4 {
+  height: 20px;
+  background-color: rgb(222, 222, 222);
+  left: 10px;
+  width: 300px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: rgb(222, 222, 222);
+  border-right-color: rgb(222, 222, 222);
+  border-bottom-color: rgb(222, 222, 222);
+  border-left-color: rgb(222, 222, 222);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  top: 415px;
+}
+
+#divApplab.appModern #healthMe {
+  height: 20px;
+  background-color: rgb(22, 255, 0);
+  left: 10px;
+  width: 300px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  top: 415px;
+}
+
+#divApplab.appModern #button3 {
+  height: 20px;
+  background-color: rgb(222, 222, 222);
+  left: 10px;
+  top: 33px;
+  width: 300px;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-color: rgb(222, 222, 222);
+  border-right-color: rgb(222, 222, 222);
+  border-bottom-color: rgb(222, 222, 222);
+  border-left-color: rgb(222, 222, 222);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#divApplab.appModern #healthComp {
+  height: 20px;
+  background-color: rgb(22, 255, 0);
+  left: 10px;
+  top: 33px;
+  width: 300px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#divApplab.appModern #image3 {
+  height: 125px;
+  width: 265px;
+  left: 10px;
+  top: 220px;
+}
+
+#divApplab.appModern #label4 {
+  font-size: 18px;
+  color: rgb(32, 0, 255);
+  width: 160px;
+  height: 25px;
+  left: 145px;
+  text-align: right;
+  top: 393px;
+}
+
+#divApplab.appModern #potionCount {
+  font-size: 15px;
+  color: hotpink;
+  width: 25px;
+  height: 20px;
+  left: 105px;
+  top: 375px;
+}
+
+#divApplab.appModern #label6 {
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  width: 245px;
+  height: 25px;
+  left: 10px;
+  text-align: left;
+  top: 10px;
+}
+
+#divApplab.appModern #oddish {
+  height: 115px;
+  width: 95px;
+  left: 210px;
+  top: 60px;
+}
+
+#divApplab.appModern #punchBtn {
+  width: 68px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-color: rgb(47, 26, 188);
+  left: 225px;
+  top: 260px;
+}
+
+#divApplab.appModern #punchLabel {
+  color: rgb(47, 26, 188);
+  width: 70px;
+  height: 20px;
+  left: 240px;
+  text-align: center;
+  top: 291px;
+}
+
+#divApplab.appModern #turnLabel {
+  height: 85px;
+  width: 110px;
+  background-color: rgb(47, 26, 188);
+  top: 135px;
+}
+
+#divApplab.appModern #oddishLabel {
+  color: rgb(255, 255, 255);
+  width: 179px;
+  left: 125px;
+  top: 175px;
+  background-color: rgb(0, 0, 0);
+}
+
+#divApplab.appModern #potionLabel {
+  width: 70px;
+  height: 35px;
+  left: 15px;
+  top: 375px;
+  font-size: 15px;
+  text-align: left;
+  color: hotpink;
+}
+
+#divApplab.appModern #winScreen {
+  display: none;
+  background-size: 320px 450px;
+  background-image: url("https://studio.code.org/blockly/media/1x1.gif");
+}
+
+#divApplab.appModern #winLabel {
+  width: 280px;
+  height: 110px;
+  left: 20px;
+  top: 65px;
+  font-size: 50px;
+  text-align: center;
+}
+
+#divApplab.appModern #image5 {
+  height: 370px;
+  width: 330px;
+  left: -5px;
+  top: 80px;
+}
+
+#divApplab.appModern #loseScreen {
+  display: none;
+}
+
+#divApplab.appModern #image6 {
+  height: 350px;
+  width: 320px;
+  left: -1.11022e-16px;
+  top: 45px;
+}
